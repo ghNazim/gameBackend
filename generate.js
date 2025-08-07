@@ -58,7 +58,6 @@ Try to keep the neck like the input image. Longer in length, and the png-mask at
       prompt,
       background: "transparent",
       size: "1024x1024",
-      quality: "high",
       input_fidelity: "high",
     });
 
