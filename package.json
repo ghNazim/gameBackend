@@ -1,7 +1,7 @@
 {
   "name": "openaiimagegentest",
   "version": "1.0.0",
-  "main": "generate.js",
+  "main": "gpt.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/genai": "^1.17.0",
     "axios": "^1.11.0",
+    "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
